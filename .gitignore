@@ -48,3 +48,11 @@ Thumbs.db
 *.mov
 *.wmv
 
+# Ignore local stuff
+*.png
+*.jpg
+*.jpeg
+*.csv
+*.ttf
+*.ini
+

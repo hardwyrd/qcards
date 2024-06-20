@@ -1,0 +1,16 @@
+[SETTINGS]
+
+BACKGROUND_IMAGE=mindinet-qsl-demo-tmp.png
+
+BIG_FONT=OpenSans_Extrabold.ttf
+BIG_FONT_SIZE=210
+BIG_FONT_COLOR=#cccccc
+
+SMALL_FONT=Lato_Regular.ttf
+SMALL_FONT_SIZE=24
+SMALL_FONT_COLOR=#cccccc
+
+[DEFAULT]
+CARD_W=1280
+CARD_H=720
+CSV_FILE=netcall_logs.csv
