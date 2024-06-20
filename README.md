@@ -18,7 +18,7 @@ QCards is configurable via a simple configuration file. Customize QCards by sett
 ## Installation
 
 To install QCards, you can clone this Git repository or download the artifacts.
-`git clone https://hardwyrd@bitbucket.org/hardwyrd/qcards.git`
+`git clone https://bitbucket.org/hardwyrd/qcards.git`
 
 # Running QCards
 
@@ -28,10 +28,13 @@ Since QCards is a Python script, it is much better to provide QCards with a virt
 
 Go ahead and create the virtual environment and activate:
 
-`python3 -m venv qcards_env`
-`source qcards_env/bin/activate`
+```
+python3 -m venv qcards_env
+source qcards_env/bin/activate
+```
 
 Install the required Python modules via the requirements.txt file:
+
 `pip install -r requirements.txt`
 
 ## Configuration
@@ -58,7 +61,8 @@ QCards accepts data from CSV with the following format:
 
 `Callsign, Handle, Date & Time, Mode, RST`
 
-Ex.
+Example:
+
 ```
 4g9lbz,Romar,06/19/2024 20:00:00 Asia/Manila,ASL,5/9
 ```
@@ -68,16 +72,20 @@ The included sample netcall_logs.csv.sample follows this format. Feel free to co
 ## Syntax
 
 To generate QSL cards using the default configuration, run
+
 `./qcards.py`
 
 To generate QSL cards using a custom configuration, run 
+
 `./qcards.py -c <your config file>`
 
 To generate QSL cards from a custom CSV file, run
+
 `./qcards.py -f <your CSV file>`
 
 To generate QSL cards from a custom configuration and custom CSV file, run
-`./qcards.py -c <your config file> -f <your CSV file>
+
+`./qcards.py -c <your config file> -f <your CSV file>`
 
 ### Support
 If you like this little tool, you can buy me coffee ^_^ and thank you for your support. 
