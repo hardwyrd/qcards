@@ -18,7 +18,7 @@ QCards is configurable via a simple configuration file. Customize QCards by sett
 ## Installation
 
 To install QCards, you can clone this Git repository or download the artifacts.
-`git clone https://bitbucket.org/hardwyrd/qcards.git`
+`git clone https://github.com/hardwyrd/qcards.git`
 
 # Running QCards
 
