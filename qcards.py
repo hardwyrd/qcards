@@ -12,7 +12,14 @@ from configparser import ConfigParser
 import click
 import csv
 
+# Fetch recent version
+with open('version.txt', 'r') as version_file:
+    version_lines = version_file.readlines()
+    for version in version_lines:
+        version_num = version
+
 @click.command()
+@click.version_option(version_num, prog_name="QCards")
 @click.option('-c', '--configuration_file', help='Custom config file')
 @click.option('-f', '--csv_file', help='CSV file')
 def generate_card(configuration_file, csv_file):
